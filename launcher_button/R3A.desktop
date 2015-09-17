@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Categories=JVRC;Application;
+Name=Task.R3-A
+GenericName=JVRC Task R3-A
+Icon=choreonoid.png
+Path=/home/player/.jvrc/Task.R3A
+Exec=/home/player/.jvrc/Task.R3A/10main.sh
+Terminal=false
+StartupNotify=true
+StartupWMClass=
+OnlyShowIn=Unity;
+X-UnitGenerated=true
