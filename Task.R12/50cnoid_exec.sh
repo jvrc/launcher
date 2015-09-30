@@ -1,9 +1,9 @@
 #!/bin/bash -x
 
 _taskname="R12"
+_top_dir="/media/player/JVRC4GU"
 
-cnoid_cmd="/usr/bin/choreonoid"
-cnoid_proj_file="${JL_TOPDIR}/models/model.git/tasks/${_taskname}/${_taskname}.cnoid"
+task_exec_cmd="${_top_dir}/model/tasks/task_exec.sh"
 
 ###
-${cnoid_cmd} ${cnoid_proj_file}
+/bin/bash -x ${task_exec_cmd} ${_top_dir} ${_taskname}
