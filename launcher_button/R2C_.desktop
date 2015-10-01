@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Categories=JVRC;Application;
+Name=Task.R2-C_2
+GenericName=JVRC Task R2-C_2
+Icon=choreonoid.png
+Path=/home/player/.jvrc/Task.R2C_2
+Exec=/home/player/.jvrc/Task.R2C_2/10main.sh
+Terminal=false
+StartupNotify=true
+StartupWMClass=
+OnlyShowIn=Unity;
+X-UnitGenerated=true
