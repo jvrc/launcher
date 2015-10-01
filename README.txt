@@ -1,17 +1,17 @@
-0. Git clone JVRC launcher.
+0. Git clone JVRC launcher as $HOME/.jvrc/.
 
-    ex.) $ git clone https://github.com/jvrc/launcher launcher.git
+    ex.) $ cd $HOME
+         $ git clone https://github.com/jvrc/launcher .jvrc
 
-1. Replace JVRC launcher as $HOME/.jvrc/ directory.
+1. Make a link for $HOME/.jvrc/launcher_button directory.
 
-    ex.) $ mv launcher.git $HOME/.jvrc
+2. Move link(2.) to desktop.
 
-2. Make a link for $HOME/.jvrc/launcher_button directory.
+3. Adds model files.
 
-3. Move link(2.) to desktop.
+    ex.1) $ cd /media/player/JVRC4GU/
+          $ git clone https://github.com/jvrc/model model
 
-4. Adds model files.
-
-    ex.) $ cd $HOME/.jvrc/models
-         $ git clone https://github.com/jvrc/model model.git
+    ex.2) $ cd $HOME/.jvrc/models
+          $ git clone https://github.com/jvrc/model model.git
 
